@@ -1,0 +1,50 @@
+package com.tka.AssignmentTwo;
+
+import java.util.Scanner;
+
+public class EmployeeProperties 
+{
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter Employee Name");
+		String Emp_Name=sc.next();
+		
+		System.out.println("Enter Employee Age");
+		int Age =sc.nextInt();
+		
+		
+		System.out.println("Enter Employee City");
+		String City =sc.next();
+		
+		System.out.println("Enter Employee Post");
+		String Post=sc.next();
+		
+		System.out.println("Enter Employee Salary");
+		double  Salary=sc.nextFloat();
+		
+		
+		System.out.println(" Name:"+Emp_Name);
+		System.out.println(" Age:"+Age);
+		System.out.println(" City:"+City);
+		System.out.println(" Post:" +Post);
+		System.out.println(" Salary:" +Salary);
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
