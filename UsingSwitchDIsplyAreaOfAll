@@ -1,0 +1,66 @@
+package com.tka.AssignmentTwo;
+
+import java.util.Scanner;
+
+public class SwitchAreaOFAll
+{
+	public static void main(String[] args)
+	{
+		
+		 Scanner sc = new Scanner(System.in);
+		 
+		 System.out.println("Enter Your Choice");
+		 int choice= sc.nextInt();
+	        double result = 0;
+
+
+	switch (choice) {
+    case 1:
+        System.out.print("Enter radius of circle: ");
+        double radius = sc.nextDouble();
+        result = Math.PI * radius * radius;
+        System.out.println("Area of Circle = " + result);
+        break;
+
+    case 2:
+        System.out.print("Enter length of rectangle: ");
+        double length = sc.nextDouble();
+        System.out.print("Enter width of rectangle: ");
+        double width = sc.nextDouble();
+        result = length * width;
+        System.out.println("Area of Rectangle = " + result);
+        break;
+
+    case 3:
+        System.out.print("Enter side of square: ");
+        double side = sc.nextDouble();
+        result = side * side;
+        System.out.println("Area of Square = " + result);
+        break;
+
+    case 4:
+        System.out.print("Enter radius of circle: ");
+        radius = sc.nextDouble();
+        result = 2 * Math.PI * radius;
+        System.out.println("Circumference of Circle = " + result);
+        break;
+
+    case 5:
+        System.out.print("Enter number: ");
+        double num = sc.nextDouble();
+        result = num * num;
+        System.out.println("Square of Number = " + result);
+        break;
+
+    case 6:
+        System.out.print("Enter number: ");
+        num = sc.nextDouble();
+        result = num * num * num;
+        System.out.println("Cube of Number = " + result);
+        break;
+
+    default:
+        System.out.println("Invalid choice! Please enter a number between 1 and 6.");
+   }
+  }
+}
